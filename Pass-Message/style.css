@@ -1,0 +1,18 @@
+.content{
+    background-color: aqua;
+}
+
+.container{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    /* padding-left: 20%; */
+    margin-top: 15%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+
+    
+}
+
