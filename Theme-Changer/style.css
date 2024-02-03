@@ -1,0 +1,40 @@
+
+        .content{
+            margin-top: 50%;
+            text-align: center;
+        }
+        
+        button#redBtn{
+            background-color: red;
+            color: aliceblue;
+            text-align: center;
+            width: 50px;
+            height: 30px;
+
+        }
+        button#blueBtn{
+            background-color: blue;
+            color: aliceblue;
+            text-align: center;
+            width: 50px;
+            height: 30px;
+
+        }
+        button#greenBtn{
+            background-color: green;
+            color: aliceblue;
+            text-align: center;
+            width: 50px;
+            height: 30px;
+
+        }
+        button#yellowBtn{
+            background-color: yellow;
+            color: rgb(43, 114, 177);
+            text-align: center;
+            width: 50px;
+            height: 30px;
+
+        }
+
+  
