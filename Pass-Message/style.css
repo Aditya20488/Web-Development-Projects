@@ -1,18 +1,86 @@
-.content{
-    background-color: aqua;
+body, html{
+    background-color: #6665ee;
+    height: 100%;
+
 }
+
+
 
 .container{
-    background-color: red;
-    width: 50%;
-    height: 300px;
-    border-radius: 20px;
-    /* padding-left: 20%; */
+    
     margin-top: 15%;
     margin-left: 25%;
+    width: 600px;
+    background-color:white ;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: black;
 
-    
 }
 
+h4{
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #6665ee;
+}
+
+form input.box{
+    height: 40px;
+    width: 500px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+form input.button{
+    font-size: 1.2rem;
+    background-color: #6665ee;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+h5{
+    background-color: #FFD4CD;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.feedback{
+    display: none;
+
+}
+
+.show{
+    display: block;
+
+}
+
+.message-content{
+    color: #4B830A;
+
+}
