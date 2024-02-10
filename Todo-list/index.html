@@ -3,40 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TODO List</title>
-  <!-- Linking to external CSS file -->
-  <link rel="stylesheet" href="styles.css">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="container-fluid bg-primary text-light py-3">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <h1>TODO List</h1>
-          <p class="m-0">© Created by Aditya Anand</p>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="mb-3">
-          <input type="text" class="form-control" id="taskInput" placeholder="Enter your task">
-        </div>
-        <button class="btn btn-primary mb-3" id="addBtn">Add</button>
-        <button class="btn btn-danger mb-3" id="deleteBtn">Delete</button>
-      </div>
-      <div class="col-md-6">
-        <ul id="taskList" class="list-group">
-          <!-- Tasks will be added dynamically here -->
-        </ul>
-      </div>
+  <div class="container">
+    <div class="box">
+      <h2>To Do List</h2>
+      <input type="text" name="" id="inputbt" placeholder="Enter your task...">
+      <ul id="list"></ul>
     </div>
   </div>
-
-  <!-- Linking to external JavaScript file -->
   <script src="script.js"></script>
+  
 </body>
 </html>

@@ -1,0 +1,67 @@
+@import url("https://fonts.google.com/");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:grey ;
+
+}
+
+.box{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    padding: 30px 50px;
+    background: rgb(85, 83, 83);
+    border-radius: 30px;
+    box-shadow: 25px 25px 75px rgba(0,0,0,0.5),
+    10px 10px 70px rgba(0,0,0,0.25);
+
+
+}
+
+h2{
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.75em;
+    margin-bottom: 10px;
+}
+
+#inputbt{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.25);
+
+}
+
+.box li{
+    position: relative;
+    display: flex;
+    width: calc(100%-50px);
+    align-items: center;
+    margin: 15px 0 ;
+    padding: 10px;
+    min-height: 45px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: rgb(57, 171, 165);
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.25);
+
+}
