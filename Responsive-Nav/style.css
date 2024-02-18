@@ -1,0 +1,112 @@
+@import url("https://fonts.google.com/");
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 80%;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.logo{
+
+  font-size: 1.5rem;
+  margin: 0.5rem;
+
+}
+.centerDetails ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.centerDetails li{
+  list-style: none;
+
+}
+
+.centerDetails li a{
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+  /* text-transform: capitalize; */
+
+}
+
+.centerDetails li:hover{
+  background-color: rgb(185, 182, 11);
+  
+  
+}
+
+.login{
+  font-size: 1.5rem;
+  margin-right: 1%;
+
+}
+
+.togglebt{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.togglebt .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+@media (max-width:488px){
+    .togglebt{
+        display: flex;
+    }
+    .centerDetails {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .centerDetails ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .centerDetails li{
+        text-align: center;
+    }
+
+    .centerDetails li a{
+        padding: 0.5rem 1rem;
+    }
+
+    .centerDetails.active{
+        display: flex;
+    }
+
+}
