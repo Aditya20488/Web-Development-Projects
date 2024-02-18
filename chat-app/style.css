@@ -8,3 +8,17 @@
     font-family: 'Poppins',sans-serif;
     
 }
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background: #f7f7f7;
+}
+
+.wrapper{
+    background: #fff;
+    width: 450px;
+    
+}
